@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | OFF-KEY MEDIA</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="site-page">
+  <header class="page-header">
+    <div class="header-inner">
+      <button class="site-mark" onclick="go('index.html', event)">OFF-<span class="brand-key">KEY</span> MEDIA</button>
+      <h1 class="page-title">Home</h1>
+      <nav class="mini-piano" aria-label="Page navigation">
+        <a class="mini-key" href="why.html" onclick="go('why.html', event)">Why</a>
+        <a class="mini-key" href="media.html" onclick="go('media.html', event)">Experiences</a>
+        <a class="mini-key red active" href="home.html" onclick="go('home.html', event)">Home</a>
+        <a class="mini-key" href="pricing.html" onclick="go('pricing.html', event)">Pricing</a>
+        <a class="mini-key" href="booking.html" onclick="go('booking.html', event)">Booking</a>
+        <a class="mini-key" href="productions.html" onclick="go('productions.html', event)">Productions</a>
+        <span class="mini-black-key one" aria-hidden="true"></span>
+        <span class="mini-black-key two" aria-hidden="true"></span>
+        <span class="mini-black-key three" aria-hidden="true"></span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="hero">
+      <img src="offkey-dark-logo.png" alt="Off-Key Media logo in a dark hallway">
+      <div class="hero-content">
+        <h2>Every Moment <span class="accent">Worth Keeping</span></h2>
+        <p>Cinematic, culturally grounded storytelling for creators, brands, organizations, and real people building something bigger than themselves.</p>
+        <a class="button" href="booking.html">Book a Session</a>
+      </div>
+    </section>
+
+    <section class="statement">
+      <p class="eyebrow">Mission Statement</p>
+      <h2>We Turn <span class="mission-red">Culture</span> Into <span class="mission-red">Cinema</span></h2>
+      <p>Off-<span class="brand-key">Key</span> Media exists to create cinematic, culturally grounded storytelling that reflects real people, real ambition, and real life.</p>
+      <p>We believe powerful stories are everywhere: in the streets, small businesses, independent artists, nightlife, overlooked communities, and in everyday people building something bigger than themselves.</p>
+      <p>Our mission is to bridge the gap between independent creativity and professional production by providing high-quality film, media coverage, and visual storytelling that feels authentic, elevated, and unforgettable.</p>
+      <p>From script development to full-scale production, we help creators, brands, and organizations bring their vision to life with purpose and cinematic impact.</p>
+      <p>We are committed to spotlighting both talent and the beauty of the city itself, capturing not just moments, but culture. Off-<span class="brand-key">Key</span> Media is built to make Chattanooga impossible to ignore.</p>
+      <p class="quote">"We don't <span class="mission-red">create content</span>. We turn <span class="mission-red">culture</span> into <span class="mission-red">cinema</span>."</p>
+    </section>
+
+    <section class="minimal-links" aria-label="Featured paths">
+      <a href="media.html">Watch the work</a>
+      <a href="productions.html">View productions</a>
+      <a href="booking.html">Start a booking</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="social-circles" aria-label="Social media links">
+      <a href="https://www.facebook.com/jeremy.f.lawrence" target="_blank" rel="noopener">FB</a>
+      <a href="https://www.instagram.com/Whoisj_flo" target="_blank" rel="noopener">IG</a>
+      <a href="https://www.instagram.com/offkeymediafilms/" target="_blank" rel="noopener">OK</a>
+    </div>
+    <p>OFF-<span class="brand-key">KEY</span> MEDIA - WE HIT <span class="mission-red">DIFFERENT</span></p>
+  </footer>
+  <audio id="keySound" src="piano.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

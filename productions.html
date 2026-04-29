@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productions | OFF-KEY MEDIA</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="site-page">
+  <header class="page-header">
+    <div class="header-inner">
+      <button class="site-mark" onclick="go('index.html', event)">OFF-<span class="brand-key">KEY</span> MEDIA</button>
+      <h1 class="page-title">Productions</h1>
+      <nav class="mini-piano" aria-label="Page navigation">
+        <a class="mini-key" href="why.html" onclick="go('why.html', event)">Why</a>
+        <a class="mini-key" href="media.html" onclick="go('media.html', event)">Experiences</a>
+        <a class="mini-key red" href="home.html" onclick="go('home.html', event)">Home</a>
+        <a class="mini-key" href="pricing.html" onclick="go('pricing.html', event)">Pricing</a>
+        <a class="mini-key" href="booking.html" onclick="go('booking.html', event)">Booking</a>
+        <a class="mini-key active" href="productions.html" onclick="go('productions.html', event)">Productions</a>
+        <span class="mini-black-key one" aria-hidden="true"></span>
+        <span class="mini-black-key two" aria-hidden="true"></span>
+        <span class="mini-black-key three" aria-hidden="true"></span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="minimal-intro">
+      <p class="eyebrow">Productions</p>
+      <h2>Films, episodes, trailers, and <span class="mission-red">worlds in progress.</span></h2>
+      <p>Selected films, shorts, webisodes, and stills from OFF-<span class="brand-key">KEY</span> MEDIA.</p>
+    </section>
+
+    <section class="project-list">
+      <article class="project-row">
+        <div class="video-frame">
+          <video src="wwc-trailer.mp4" autoplay muted loop playsinline controls poster="wwc-poster.jpg"></video>
+        </div>
+        <div class="project-copy">
+          <p class="project-type">Feature Film - Fall 26</p>
+          <h3>When Worlds <span class="mission-red">Collide</span></h3>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <div class="video-frame">
+          <iframe src="https://www.youtube.com/embed/Y4S774OEV5k?start=120&autoplay=1&mute=1&controls=0&loop=1&playlist=Y4S774OEV5k&playsinline=1&enablejsapi=1" allow="autoplay; encrypted-media; picture-in-picture; web-share" allowfullscreen title="Termed"></iframe>
+        </div>
+        <div class="project-copy">
+          <p class="project-type">Short</p>
+          <h3>Termed</h3>
+          <p>A short film presented by OFF-<span class="brand-key">KEY</span> MEDIA.</p>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <div class="video-frame">
+          <iframe src="https://drive.google.com/file/d/1kVkt3sAQ93YIocz2fl2IeJlhnEWkSpBb/preview" allow="fullscreen" allowfullscreen title="On/No Episode 1"></iframe>
+        </div>
+        <div class="project-copy">
+          <p class="project-type">Webisode</p>
+          <h3>On/No <span class="mission-red">Episode 1</span></h3>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <div class="stills-board">
+          <div class="poster-slot image-slot"><img src="the-repast-poster.png" alt="The Repast poster"></div>
+          <div class="still-slot image-slot"><img src="repast-still-010.jpg" alt="The Repast still"></div>
+          <div class="still-slot image-slot"><img src="repast-still-006.jpg" alt="The Repast still"></div>
+          <div class="still-slot image-slot"><img src="repast-still-003.jpg" alt="The Repast still"></div>
+        </div>
+        <div class="project-copy">
+          <p class="project-type">Feature Film - Currently in Post Production</p>
+          <h3>The <span class="mission-red">Repast</span></h3>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="social-circles" aria-label="Social media links">
+      <a href="https://www.facebook.com/jeremy.f.lawrence" target="_blank" rel="noopener">FB</a>
+      <a href="https://www.instagram.com/Whoisj_flo" target="_blank" rel="noopener">IG</a>
+      <a href="https://www.instagram.com/offkeymediafilms/" target="_blank" rel="noopener">OK</a>
+    </div>
+    <p>OFF-<span class="brand-key">KEY</span> MEDIA - WE HIT <span class="mission-red">DIFFERENT</span></p>
+  </footer>
+  <audio id="keySound" src="piano.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

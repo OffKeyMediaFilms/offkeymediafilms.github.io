@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiences | OFF-KEY MEDIA</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="site-page">
+  <header class="page-header">
+    <div class="header-inner">
+      <button class="site-mark" onclick="go('index.html', event)">OFF-<span class="brand-key">KEY</span> MEDIA</button>
+      <h1 class="page-title">Experiences</h1>
+      <nav class="mini-piano" aria-label="Page navigation">
+        <a class="mini-key" href="why.html" onclick="go('why.html', event)">Why</a>
+        <a class="mini-key active" href="media.html" onclick="go('media.html', event)">Experiences</a>
+        <a class="mini-key red" href="home.html" onclick="go('home.html', event)">Home</a>
+        <a class="mini-key" href="pricing.html" onclick="go('pricing.html', event)">Pricing</a>
+        <a class="mini-key" href="booking.html" onclick="go('booking.html', event)">Booking</a>
+        <a class="mini-key" href="productions.html" onclick="go('productions.html', event)">Productions</a>
+        <span class="mini-black-key one" aria-hidden="true"></span>
+        <span class="mini-black-key two" aria-hidden="true"></span>
+        <span class="mini-black-key three" aria-hidden="true"></span>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main minimal-page">
+    <section class="minimal-intro">
+      <p class="eyebrow">Experiences</p>
+      <h2>Embedded moments. <span class="mission-red">Real culture.</span></h2>
+      <p>Events, premieres, performances, and small pieces that give just enough to make you want to see more.</p>
+    </section>
+
+    <section class="experience-list">
+      <article class="experience-item">
+        <div class="experience-video video-thumb" style="--thumb: url('flo-cutout.png')">
+          <iframe src="https://drive.google.com/file/d/1ppGDq4nPwru_5O2nnKgUdoE7mlIAk5iW/preview" allow="fullscreen" allowfullscreen title="MFA Wile Out Competition"></iframe>
+          <span class="play-overlay">Play</span>
+        </div>
+        <div class="experience-copy">
+          <h3>MFA <span class="mission-red">"Wile Out"</span> Competition</h3>
+          <p>Comedians. <span>Laughter.</span> Whole lot of <span>Culture.</span></p>
+        </div>
+      </article>
+
+      <article class="experience-item">
+        <div class="experience-video video-thumb" style="--thumb: url('offkey-cutout-logo.png')">
+          <iframe src="https://drive.google.com/file/d/12ztMEW9CZhMW8YRk4F5k1fCt5vka8PDZ/preview" allow="fullscreen" allowfullscreen title="She Likes To Watch Movie Premiere"></iframe>
+          <span class="play-overlay">Play</span>
+        </div>
+        <div class="experience-copy">
+          <h3>"She Likes To Watch" <span class="mission-red">Movie</span> Premiere</h3>
+          <p><span>Red</span> Carpet. <span>All Access.</span> Who ain't on the <span>list?</span></p>
+        </div>
+      </article>
+
+      <article class="experience-item">
+        <div class="experience-video image-preview">
+          <img src="flo-cutout.png" alt="Flo and his camera artwork">
+          <span>Smokin' Word Video Coming Soon</span>
+        </div>
+        <div class="experience-copy">
+          <h3><span class="mission-red">Smokin'</span> Word</h3>
+          <p>Puff. Puff. <span>Poetry.</span></p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="social-circles" aria-label="Social media links">
+      <a href="https://www.facebook.com/jeremy.f.lawrence" target="_blank" rel="noopener">FB</a>
+      <a href="https://www.instagram.com/Whoisj_flo" target="_blank" rel="noopener">IG</a>
+      <a href="https://www.instagram.com/offkeymediafilms/" target="_blank" rel="noopener">OK</a>
+    </div>
+    <p>OFF-<span class="brand-key">KEY</span> MEDIA - WE HIT <span class="mission-red">DIFFERENT</span></p>
+  </footer>
+
+  <audio id="keySound" src="piano.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
